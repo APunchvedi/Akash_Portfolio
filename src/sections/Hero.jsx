@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="w-full flex mx-auto flex flex-col sm:mt-16 mt-10 c-space gap-1">
                 <p className="sm:text-3xl text-xl font-light text-white text-center font-generalsans">Hi, I am Akash
                     <span className="waving-hand ">👋 </span></p>
-                <p className="hero_tag text-gray_gradient font-light "> Full Stack Software Engineer</p>
+                <p className="hero_tag text-gray_gradient font-light "> Full Stack Developer</p>
 
             </div>
             <div className="w-full h-full absolute inset-0">

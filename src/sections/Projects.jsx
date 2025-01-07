@@ -37,13 +37,13 @@ const Projects = () => {
             <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
                 <div className="flex flex-col gap-5 relative sm:py-10 px-5 shadow-2xl shadow-black-200">
                     <div className="absolute top-0 right-0">
-                        <img src={myProjects[0].spotlight} alt="spotlight"
+                        <img src={currentProject.spotlight} alt="spotlight"
                              className="w-full h-96 object-cover rounded-xl"/>
 
                     </div>
                     <div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg"
-                         style={myProjects[0].logoStyle}>
-                        <img src={myProjects[0].logo} alt="logo" className="w-10 h-10 shadow-sm"/>
+                         style={currentProject.logoStyle}>
+                        <img src={currentProject.logo} alt="logo" className="w-10 h-10 shadow-sm"/>
                     </div>
 
                     <div className="flex flex-col gap-5 text-white-600 my-5">
@@ -60,12 +60,13 @@ const Projects = () => {
                         ))}
 
                         </div>
-                        <a className="flex items-center gap-2 cursor-pointer text-white-600" href={currentProject.href}
+                          <div>
+                        <a className="flex items-center gap-2 text-white-600 " href={currentProject.href}
                            target="_blank" rel="noreferrer">
-                            <p>Check Live Site</p>
+                            <button className="cursor-pointer">Check Live Site</button>
                             <img src="/assets/arrow-up.png" className="w-3 h-3" alt="arrow-up"/>
                         </a>
-
+                          </div>
                     </div>
                     <div className="flex justify-between items-center mt-7">
                         <button className="arrow-btn" onClick={() => handleNavigation('previous')}>
