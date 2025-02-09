@@ -76,12 +76,12 @@ export const myProjects = [
       {
         id: 1,
         name: "MongoDB",
-        path: "/public/assets/MongoDB.png",
+        path: "/assets/mongoDB.png",
       },
       {
         id: 2,
         name: "Express JS",
-        path: "/public/assets/express_js.png",
+        path: "/assets/express.png",
       },
       {
         id: 3,
@@ -91,12 +91,12 @@ export const myProjects = [
       {
         id: 4,
         name: "Node JS",
-        path: "/public/assets/Nodejs.png",
+        path: "/assets/nodejs.png",
       },
       {
         id: 5,
         name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        path: "/assets/tailwindcss.png",
       },
       {
         id: 6,
@@ -106,7 +106,7 @@ export const myProjects = [
       {
         id: 7,
         name: "Framer Motion",
-        path:"/public/assets/framer.png"
+        path:"/assets/framer.png"
       }
     ],
   },
