@@ -76,7 +76,7 @@ export const myProjects = [
       {
         id: 1,
         name: "MongoDB",
-        path: "/assets/mongodb.png",
+        path: "/public/assets/mongodb.png",
       },
       {
         id: 2,
@@ -91,7 +91,7 @@ export const myProjects = [
       {
         id: 4,
         name: "Node JS",
-        path: "/assets/nodejs.png",
+        path: "/public/assets/nodejs.png",
       },
       {
         id: 5,
