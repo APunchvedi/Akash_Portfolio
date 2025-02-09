@@ -61,8 +61,8 @@ export const myProjects = [
     title: "PixScribe: Transform Your Ideas into Stunning Images with AI",
     desc: "PixScribe is our AI-powered text-to-image SaaS app lets you create high-quality visuals from simple text descriptions. Whether you need artwork, concept designs, or marketing visuals, generate unique images instantly—no design skills required. Try it today and bring your imagination to life, also, with help of razorpay payment gateway you can purchase more credits on the go!",
     subdesc:
-    "Turn words into stunning visuals with AI-powered image generation in seconds."+
-    "Tech Stack: Built with MongoDB, Express.js React.js, Node.js & Tailwind CSS using Figma designs.",
+      "Turn words into stunning visuals with AI-powered image generation in seconds." +
+      "Tech Stack: Built with MongoDB, Express.js React.js, Node.js & Tailwind CSS using Figma designs.",
     href: "https://pixscribe-app-client.onrender.com",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/camera.png",
@@ -76,7 +76,7 @@ export const myProjects = [
       {
         id: 1,
         name: "MongoDB",
-        path: "/public/assets/mongodb.png",
+        path: "/assets/mongodb.png",
       },
       {
         id: 2,
@@ -91,7 +91,7 @@ export const myProjects = [
       {
         id: 4,
         name: "Node JS",
-        path: "/public/assets/nodejs.png",
+        path: "/assets/nodejs.png",
       },
       {
         id: 5,
@@ -106,8 +106,13 @@ export const myProjects = [
       {
         id: 7,
         name: "Framer Motion",
-        path:"/assets/framer.png"
-      }
+        path: "/assets/framer.png",
+      },
+      {
+        id: 8,
+        name: "RazorPay ",
+        path: "/assets/razorpay (1).png",
+      },
     ],
   },
   {
