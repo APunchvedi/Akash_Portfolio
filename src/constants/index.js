@@ -58,14 +58,14 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "ShoeBox: ShoeBox landing page",
-    desc: "ShoeBox is a landing page designed with pixel perfection and strongest eye to detail making the website highly responsive.",
+    title: "PixScribe: Transform Your Ideas into Stunning Images with AI",
+    desc: "PixScribe is our AI-powered text-to-image SaaS app lets you create high-quality visuals from simple text descriptions. Whether you need artwork, concept designs, or marketing visuals, generate unique images instantly—no design skills required. Try it today and bring your imagination to life, also, with help of razorpay payment gateway you can purchase more credits on the go!",
     subdesc:
-      " The design prominently showcase collection of shoes, providing clear visuals and descriptions for each shoe. " +
-      " Tech Stack: Built with React.js, Tailwind CSS and Figma designs.",
-    href: "https://shoe-box-landing-page.vercel.app/",
-    texture: "/textures/project/project1(1).mp4",
-    logo: "/assets/project-logo1(1).png",
+    "Turn words into stunning visuals with AI-powered image generation in seconds."+
+    "Tech Stack: Built with MongoDB, Express.js React.js, Node.js & Tailwind CSS using Figma designs.",
+    href: "https://pixscribe-app-client.onrender.com",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/camera.png",
     logoStyle: {
       backgroundColor: "#2A1816",
       border: "0.2px solid #36201D",
@@ -75,19 +75,39 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "MongoDB",
+        path: "/public/assets/MongoDB.png",
       },
       {
         id: 2,
+        name: "Express JS",
+        path: "/public/assets/express_js.png",
+      },
+      {
+        id: 3,
+        name: "React JS",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 4,
+        name: "Node JS",
+        path: "/public/assets/Nodejs.png",
+      },
+      {
+        id: 5,
         name: "TailwindCSS",
         path: "assets/tailwindcss.png",
       },
       {
-        id: 3,
+        id: 6,
         name: "Figma",
         path: "/assets/Figma.png",
       },
+      {
+        id: 7,
+        name: "Framer Motion",
+        path:"/public/assets/framer.png"
+      }
     ],
   },
   {
@@ -96,7 +116,7 @@ export const myProjects = [
     subdesc:
       "With Intelli, users can experience the functions of AI, where you can clear your queries in real time without any lag, by using React.js",
     href: "https://intelli-ai-kappa.vercel.app/",
-    texture: "/textures/project/project2(3).mp4",
+    texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
       backgroundColor: "#13202F",
@@ -122,45 +142,39 @@ export const myProjects = [
       },
     ],
   },
-  // {
-  //     title: 'CarePulse - Health Management System',
-  //     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-  //     subdesc:
-  //         'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-  //     href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-  //     texture: '/textures/project/project3.mp4',
-  //     logo: '/assets/project-logo3.png',
-  //     logoStyle: {
-  //         backgroundColor: '#60f5a1',
-  //         background:
-  //             'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-  //         border: '0.2px solid rgba(208, 213, 221, 1)',
-  //         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-  //     },
-  //     spotlight: '/assets/spotlight3.png',
-  //     tags: [
-  //         {
-  //             id: 1,
-  //             name: 'React.js',
-  //             path: '/assets/react.svg',
-  //         },
-  //         {
-  //             id: 2,
-  //             name: 'TailwindCSS',
-  //             path: 'assets/tailwindcss.png',
-  //         },
-  //         {
-  //             id: 3,
-  //             name: 'TypeScript',
-  //             path: '/assets/typescript.png',
-  //         },
-  //         {
-  //             id: 4,
-  //             name: 'Framer Motion',
-  //             path: '/assets/framer.png',
-  //         },
-  //     ],
-  // },
+  {
+    title: "ShoeBox: ShoeBox landing page",
+    desc: "ShoeBox is a landing page designed with pixel perfection and strongest eye to detail making the website highly responsive.",
+    subdesc:
+      " The design prominently showcase collection of shoes, providing clear visuals and descriptions for each shoe. " +
+      " Tech Stack: Built with React.js, Tailwind CSS and Figma designs.",
+    href: "https://shoe-box-landing-page.vercel.app/",
+    texture: "/textures/project/project3.mp4",
+    logo: "/assets/project-logo1(1).png",
+    logoStyle: {
+      backgroundColor: "#2A1816",
+      border: "0.2px solid #36201D",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
+    },
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "Figma",
+        path: "/assets/Figma.png",
+      },
+    ],
+  },
   // {
   //     title: 'Horizon - Online Banking Platform',
   //     desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
