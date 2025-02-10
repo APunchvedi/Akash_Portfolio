@@ -76,7 +76,7 @@ export const myProjects = [
       {
         id: 1,
         name: "MongoDB",
-        path: "/assets/mongodb.png",
+        path: "/textures/project/mongodb.png",
       },
       {
         id: 2,
@@ -91,7 +91,7 @@ export const myProjects = [
       {
         id: 4,
         name: "Node JS",
-        path: "/assets/nodejs.png",
+        path: "/textures/project/nodejs.png",
       },
       {
         id: 5,
@@ -111,7 +111,7 @@ export const myProjects = [
       {
         id: 8,
         name: "RazorPay ",
-        path: "/assets/razorpay (1).png",
+        path: "/assets/Razorpay (2).png",
       },
     ],
   },
